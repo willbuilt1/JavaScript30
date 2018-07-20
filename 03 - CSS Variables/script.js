@@ -2,6 +2,7 @@
 const inputs = document.querySelectorAll('.controls input');
 const img = document.querySelector('img');
 
+
 //Set image width
 function setImageWidth(){
     const padding = document.querySelector('#spacing').value;

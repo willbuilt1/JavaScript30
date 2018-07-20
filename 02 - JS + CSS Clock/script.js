@@ -1,9 +1,17 @@
-const hourHand = document.querySelector('.hour-hand');
-      const minHand = document.querySelector('.min-hand');
-      const secondHand = document.querySelector('.second-hand');
+    const hourHand = document.querySelector('.hour-hand');
+    const minHand = document.querySelector('.min-hand');
+    const secondHand = document.querySelector('.second-hand');
+    const numbers = document.querySelectorAll('.number');
+
+    //used to rotate each of the numbers 
+    numbers.forEach(number =>{
+        const value = number.textContent;
+        const target = document.querySelector(`.n${value}`);
+        const rotation = (360 /12) * value;
+        target.style.transform = `rotate(${rotation}deg)`;            
+    })
       
-      
-      function setTime () {
+    function setTime () {
           //1. Get new date
           const now = new Date();
           //2. Using Date() rotate hour hand
@@ -23,3 +31,6 @@ const hourHand = document.querySelector('.hour-hand');
       setInterval(setTime, 1000);
       //6. Rotate hands on startup
       setTime();
+
+
+    
