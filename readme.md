@@ -16,3 +16,9 @@ Live version: https://codepen.io/willbuilt1/pen/JBbVeR
  - In the same function the image would then be shrunk depending on the padding amount. CSS styling could not be used in this instance as an increase in padding would push the image outside of the window width (on smaller devices).
 
 Live version: https://codepen.io/willbuilt1/pen/YjpqYR
+
+**Exercise 10:**
+- Added function to clear boxes
+- Run function on page refresh or when button is clicked
+
+Live version: https://codepen.io/willbuilt1/pen/gdYNwx
