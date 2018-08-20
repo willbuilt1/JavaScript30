@@ -22,3 +22,8 @@ Live version: https://codepen.io/willbuilt1/pen/YjpqYR
 - Run function on page refresh or when button is clicked
 
 Live version: https://codepen.io/willbuilt1/pen/gdYNwx
+
+**Exercise 12:**
+- Solved using .shift() prototype instead of splice() (alternate method commented out)
+- On correct key sequence being entered key entry array is cleared
+- Maximum number of elements in key press array is equal to that of key sequence
